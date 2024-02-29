@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>A hálózati címfordítás</title>
+</head>
+
+<body>
+  
+  
+  <div id="content">
+    
+    <h1>A hálózati címfordítás<a href="https://hu.wikipedia.org/wiki/Hálózati_címfordítás" target="_blank" >*</a></h1>
+    <div class="frame">
+      <img src="ipv4fogyas.png" alt="IPcalypse" title="IPcalypse">
+      <p class="imgtitle">IPv4 címek fogyása</p>
+    </div>
+
+    <div class="bekezdes">A hálózati címfordítás (angolul <b>Network Address Translation</b>, röviden <b>NAT</b>) a csomagszár�ú tűzfalak, illetve a címfordításra képes h�l�zati eszk�z�k (pl. router) kieg�sz�t� szolg�ltat�sa, mely lehet�v� teszi a bels� h�l�zatra k�t�tt g�pek k�zvetlen kommunik�ci�j�t tetsz�leges protokollokon kereszt�l k�ls� g�pekkel an�lk�l, hogy azoknak saj�t nyilv�nos IP-c�mmel kellene rendelkezni�k. C�mford�t�sra ak�r egyetlen sz�m�t�g�p is k�pes, �gy val�s�that� meg p�ld�ul az internet-kapcsolat megoszt�s is, amikor a megoszt� g�p a saj�t publikus c�m�be ford�tja bele a megoszt�st kihaszn�l� kliens g�p forgalm�t. Az eg�sz c�mford�t�s t�mak�re abb�l az ig�nyb�l n�tte ki mag�t, hogy az IPv4 tartom�nya viszonylag kev�s, 2<sup>32</sup>=256<sup>4</sup>, azaz 4 294 967 296 db egyedi IP c�met tesz ki. Ebben persze benne van az �sszes broadcast c�m �s a k�ls� h�l�zatra nem route-olhat� bels� c�mtartom�nyok is, teh�t az interneten glob�lisan haszn�lhat� c�mek �sszess�ge �gy m�g kevesebb. A g�pek h�l�zati k�rty�i egyn�l t�bb c�met is felvehetnek egyszerre ha kell, illetve nemcsak a sz�m�t�g�peknek, hanem szinte az �sszes fontosabb h�l�zati eszk�znek is sz�ks�ge van legal�bb egy c�mre. Bel�that�, hogy �gy a soknak t�n� 4 milli�rd c�m vil�gviszonylatban m�r sajnos kev�s.
+    </div>
+    <h2>M�k�d�se</h2>
+
+    <div class="bekezdes">A h�l�zati c�mford�t� a bels� g�pekr�l �rkez� csomagokat az internetre tov�bb�t�s el�tt �gy m�dos�tja, hogy azok felad�jak�nt saj�t mag�t t�nteti fel, �gy az azokra �rkez� v�laszcsomagok is hozz� ker�lnek majd tov�bb�t�sra, amiket � a c�l�llom�s c�m�nek m�dos�t�sa ut�n � a bels� h�l�zaton elhelyezked� eredeti felad� r�sz�re ad �t. Ebb�l kifoly�lag ez minden esetben egy akt�v h�l�zati eszk�zt ig�nyel, amely folyamatosan figyeli az �rkez� csomagokat �s azok felad�i �s c�mzettjei alapj�n elv�gzi a sz�ks�ges m�dos�t�sokat. Ez t�bbnyire egy t�zfal, amely megfelel�en sz�tv�lasztja a k�ls� internetet a bels� h�l�zatt�l. Innen sz�rmazik a terminol�gia is: a k�ls�, illetve bels� h�l�zat fogalma. A bels� h�l�zatnak olyan c�mtartom�nyt kell adni, amelyet minden h�l�zati eszk�z a nemzetk�zi szabv�nyoknak megfelel�en bels�nek ismer el, �s �gy azokat nem ir�ny�tja k�zvetlen�l a k�ls� h�l�zat fel�. A bels� c�meket az al�bbi t�bl�zat mutatja be:
+    </div>
+    <table>
+      <th>RCF1918</th>
+      <TH>IP címtartomány</TH>
+      <th>egyedi címek száma</th>
+      <tr>
+        <td>24-bit block</td>
+        <td>10.0.0.0 - 10.255.255.255</td>
+        <td>16 777 216 db</td>
+        
+      </tr>
+      <tr>
+        <td>20-bit block</td>
+        <td>172.16.0.0 - 172.31.255.255</td>
+        <td>1 048 576 db</td>
+        
+      </tr>
+      <tr>
+        <td>16-bit block</td>
+        <td>192.168.0.0 - 192.168.255.255</td>
+        <td>65 536 db</td>
+      </tr>
+    </table>
+    A c�mford�t�s seg�ts�g�vel megoldhat�, hogy ak�r egy eg�sz c�g teljes bels� h�l�zati forgalma egyetlen k�ls� IP c�m m�g�tt legyen, azaz gyakorlatilag egyetlen k�ls� c�met haszn�l el egy t�bb sz�z g�pes h�l�zat. A bels� forgalomban term�szetesen sz�ks�g van az egyedi bels� c�mekre, de err�l csak a c�mford�t�st v�gz� h�l�zati eszk�z�knek kell tudnia, kifel� ennek r�szletei m�r nem l�that� inform�ci�k. �gy l�trej�het olyan gazdas�gos konfigur�ci� is, hogy egy viszonylag nagy c�g teljes k�ls� c�mfoglal�sa 10-20 db c�m, m�g a bels� forgalmukban ak�r t�bb ezer bels� c�m is lehet. Nagy el�nye ennek a technik�nak, hogy ugyanazt a bels� tartom�nyt nyugodtan haszn�lhatja b�rki m�s is, am�g mindegyik egyedi k�ls� c�m m�g� van ford�tva, ez nem okoz zavart. Ak�r az �sszes NAT-ot haszn�l� c�g bels� h�l�zat�ban lehet minden g�p a 10.0.0.0 tartom�nyban, ha kifel� val�ban egyedi c�mmel l�tszanak. �ppen a c�mford�t�s technol�gi�ja miatt nem ker�lt gyorsabban bevezet�sre az IPv6 szabv�ny, amely kifejleszt�s�nek egyik oka az IPv4 fogyatkoz� c�mtartom�ny�nak kiv�lt�sa volt.
+
+  </div>
+</body>
+</html>

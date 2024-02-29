@@ -1,0 +1,4 @@
+3,
+SELECT nev, kerulet FROM gazda WHERE (kerulet=17) OR (kerulet=18) ORDER BY kerulet ASC, nev DESC;
+
+4,

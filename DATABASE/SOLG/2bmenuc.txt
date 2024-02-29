@@ -1,0 +1,1 @@
+SELECT azon, fizB from ebed_txt WHERE azon LIKE '2014C' ORDER by nev;

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./cardstyle.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="cardscript.js"></script>
+</head>
+
+<!-- ♣ ♦ ♥ ♠ -->
+<body>
+    <script>
+    for(let s=0; s<3;s++){
+    for(let i=0; i<14;i++){
+        let card=document.createElement("my-card")
+        card.dataset.number=i
+        card.dataset.sign=s
+        document.body.appendChild(card)
+    // <my-card data-number="11" data-sign="1"></my-card>
+    }}</script>
+    <!-- <div class="card">
+        <div class="row">
+            <div class="number">A</div>
+            <div class="sign">♣</div>
+        </div>
+        <div class="sign">♣</div>
+        <div class="row">
+            <div class="number">A</div>
+            <div class="sign">♣</div>
+        </div>
+    </div> -->
+</body>
+</html>

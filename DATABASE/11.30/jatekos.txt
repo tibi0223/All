@@ -1,0 +1,45 @@
+id	nev	szulev	ferfi
+1	Sarlós Róbert	1961	1
+2	Hoffmann Bettina	1982	0
+3	Farkas Ildikó	1964	0
+4	Gál Brigitta	1959	0
+5	Szabó Izabella Diána	1970	0
+6	Dudás Krisztián	1977	1
+7	Csordás Kálmán	1957	1
+8	Tóth Alexandra	1961	0
+9	Csóti Bettina	1982	0
+10	Dorogi Nóra Gréta	1982	0
+11	Nemes Petra	1978	0
+12	Schulcz Imola	1967	0
+13	Senkey Tamás	1961	1
+14	Nyers Sándor	1958	1
+15	Szekeres József	1960	1
+16	Berényi Zsolt	1963	1
+17	Bánfalvi Ramóna	1975	0
+18	Rácz Lili	1970	0
+19	Botos Noémi	1963	0
+20	Kasznár Judit	1979	0
+21	Lengyel Zsófia	1961	0
+22	Kerekes Lili	1965	0
+23	Kis Barbara Emma	1979	0
+24	Vida Csongor	1958	1
+25	Nagy Eszter	1970	0
+26	Benkő Kata Enikő	1956	0
+27	Urbán Roland	1969	1
+28	Samu Blanka	1956	0
+29	Pálinkás Anna	1978	0
+30	Falch Emil	1962	1
+31	Teleki Kálmán	1979	1
+32	Sima Dezső	1965	1
+33	Rudas Ádám	1984	1
+34	Forrai Laura	1954	0
+35	Irinyi Katalin Ida	1967	0
+36	Hódi Vivien	1978	0
+37	Máté Oszkár	1961	1
+38	Püski Kata	1958	0
+39	Mészáros Anita Réka	1977	0
+40	Kis Nóra Judit	1974	0
+41	Nyári Judit	1976	0
+42	Balog Orsolya	1975	0
+43	Zombori Adrienn	1971	0
+44	Tóti Albert	1969	1

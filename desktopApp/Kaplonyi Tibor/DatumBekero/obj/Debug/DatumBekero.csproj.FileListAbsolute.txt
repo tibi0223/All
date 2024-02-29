@@ -1,0 +1,14 @@
+C:\Users\Tanar\source\repos\DatumBekero\bin\Debug\DatumBekero.exe.config
+C:\Users\Tanar\source\repos\DatumBekero\bin\Debug\DatumBekero.exe
+C:\Users\Tanar\source\repos\DatumBekero\bin\Debug\DatumBekero.pdb
+C:\Users\Tanar\source\repos\DatumBekero\obj\Debug\DatumBekero.csproj.AssemblyReference.cache
+C:\Users\Tanar\source\repos\DatumBekero\obj\Debug\DatumBekero.csproj.CoreCompileInputs.cache
+C:\Users\Tanar\source\repos\DatumBekero\obj\Debug\DatumBekero.exe
+C:\Users\Tanar\source\repos\DatumBekero\obj\Debug\DatumBekero.pdb
+C:\Users\diak\Documents\KaplonyiTibor\desktopApp\Kaplonyi Tibor\DatumBekero\bin\Debug\DatumBekero.exe.config
+C:\Users\diak\Documents\KaplonyiTibor\desktopApp\Kaplonyi Tibor\DatumBekero\bin\Debug\DatumBekero.exe
+C:\Users\diak\Documents\KaplonyiTibor\desktopApp\Kaplonyi Tibor\DatumBekero\bin\Debug\DatumBekero.pdb
+C:\Users\diak\Documents\KaplonyiTibor\desktopApp\Kaplonyi Tibor\DatumBekero\obj\Debug\DatumBekero.csproj.AssemblyReference.cache
+C:\Users\diak\Documents\KaplonyiTibor\desktopApp\Kaplonyi Tibor\DatumBekero\obj\Debug\DatumBekero.csproj.CoreCompileInputs.cache
+C:\Users\diak\Documents\KaplonyiTibor\desktopApp\Kaplonyi Tibor\DatumBekero\obj\Debug\DatumBekero.exe
+C:\Users\diak\Documents\KaplonyiTibor\desktopApp\Kaplonyi Tibor\DatumBekero\obj\Debug\DatumBekero.pdb

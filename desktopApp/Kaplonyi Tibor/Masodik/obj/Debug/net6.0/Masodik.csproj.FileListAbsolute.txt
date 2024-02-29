@@ -1,0 +1,14 @@
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\bin\Debug\net6.0\Masodik.exe
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\bin\Debug\net6.0\Masodik.deps.json
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\bin\Debug\net6.0\Masodik.runtimeconfig.json
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\bin\Debug\net6.0\Masodik.dll
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\bin\Debug\net6.0\Masodik.pdb
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\obj\Debug\net6.0\Masodik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\obj\Debug\net6.0\Masodik.AssemblyInfoInputs.cache
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\obj\Debug\net6.0\Masodik.AssemblyInfo.cs
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\obj\Debug\net6.0\Masodik.csproj.CoreCompileInputs.cache
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\obj\Debug\net6.0\Masodik.dll
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\obj\Debug\net6.0\refint\Masodik.dll
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\obj\Debug\net6.0\Masodik.pdb
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\obj\Debug\net6.0\Masodik.genruntimeconfig.cache
+C:\Users\diak\Documents\Kaplonyi Tibor\Masodik\obj\Debug\net6.0\ref\Masodik.dll

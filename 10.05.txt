@@ -1,0 +1,73 @@
+HTML:hypertext markup language -> speciális szöveg jelölő nyelv
+egy mesterséges nyelv, amellyel webböngészőben megjeleníthető tartalmak leírására kerül sor
+
+Szókészlete ún. tag-ekből áll, amik kisebb és nagyobb relációjelek között elhelyezkedő angol szavakat, rövidítéseket tartalmazhatnak.
+
+<html>
+	<head>
+		<title>A tartalom címe</title>
+	</head>
+	<body>
+
+	</body>
+</html>
+
+A head részben az egész anyagra vonatkozó meghatározások szerepelnek
+A body részben pedig a tényleges láthatóvá tenni kívánt tartalom kerül meghatározásra
+
+A szöveges állományt *.htm vagy *.html fájlkiterjesztéssel kell elementeni.
+w3scools.com nem csak python-hoz, hanem html-hez és css-hez is tartalmaz tutorialokat
+
+<!DOCTYPE html> meta-tag-gel szokás meghatározni azt, hogy az utána következő html tartalom a HTML5 konvencióját követi (böngészőt tájékoztatja)
+
+A jellemzően html alapú tartalmakat a kliens szerver architektúráju http=hypertext transfer protocol -> speciális szöveg továbbításának szabályrendszere - alapján működtetnek.
+
+TCP=transmission control protocol -> szállítás-vezérlési szabályrendszer - biztosítja a http alapját, melynek során fontos a résztvevő egyértelmű azonosítása, 
+ami leginkább IP címek formájában történik, azonban azt is tudnunk kell, hogy egyugyanazon egyérteműen azonosítható eszközön többféle hálózati szolgáltatás is működhet,
+ezért az űn. port-ok révén lesz a teljesmértékű megkülönböztetőség biztosított.
+
+HTTP: TCP 80 (HTTPS: TCP 443)
+
+192.229.133.221:443 <=> https://www.w3schools.com/html/default.asp
+(névfeloldás, ami a szöveges azonosítót számszerűvé alakítja beleértve a portot is)
+
+TCP hármas kézfogása
+
+C ----1.----> Server (jelzi a kliens a kommunikációs szándékát)
+C <---2.----- Server (a server fogadja a kezdeményezést, de nyugtázást kér)
+C ----3.----> Server (nyugtázza a kliens a szándékát)
+
+Miután ez lezajlott a felek között felépül egy kommunikáció teljes ideje alatt fenntartott adatátviteli csatorna, amit az alábbiak szerint képzelhetünk el
+
+
+ INPUT <------\  /-------> INPUT
+C              \/               S
+ OUTPUT -------/\-------- OUTPUT
+
+(a TCP folyamatosan ellenörzött forgalmat alkalmaz, ellenörző összegek a csomagokban, ami alapján a sértetlenség megállapítható, 
+a csomagok besorszámozása pedig a hiba miatt megismétlendőt teszi könnyen beazonosíthatóvá)
+
+A body területen elhelyezett szövegtartalmak esetén semmiféle hatása nincs a szövegszerkesztés esetén használ enter leütésének, azzal ugyanis legfeljebb egy szóköz keletkezik.
+(mindenféle Whitespace karakterre igaz ez pl. tabulátor(TAB): ASCII 9, \t; új sor(LF): ACII 10, \n; kocsi-vissza(CR): ASCII 13, \r)
+A szövegeink alapértelmezés szerint kb 10-12 pontos méretű betűvel sorfolytonosan faltól falig jelennek meg, tördelésükre vonatkozóan az ablak aktuális szélessége az irányadó.
+
+A címsorok képzésére használható h1-h6 tagek példája jól mutatta, hogy a böngészők az ismeretlen taget (h7) egyszerűen figyelmen kívül hagyják.
+
+A tagek alapértelmezései valamelyest befolyásolhatóak a tag-paratméterekkel, de korántsem teljességgel, erre leginkább a CSS->cascading style sheets - lépcsőzetes stíluslap - szolgál.
+
+XHTML ajánlás: 
+
+1. A http nem case-sensitive, ennek ellenére minden tag-et írjunk következetesen kisbetűvel
+2. A tag paraméterek értékét tegyük mindig idézőjelek közé
+3. A záró változattal nem rendelkező tagek esetén alkalmazzuk a<br /> kapcsán elmondottakat 
+(a tag szövege után, attól egy szóközzel legalább elválasztva közvetlenül a nagyobb relációjel előtt szerepeljen a perjel.
+
+HTML karakterkód: ésjel valami rovidites es pontosvessző pl: &nbsp; - non braking space - nem törhető szóköz
+
+Színélmény SZUBJEKTÍV.
+Objektivizálás miatt vezettek be színrendszereket. Ilyen pl. a képernyős műfajoknál használatos RGB.  
+megadgható a színek angol nevével, vagy exact decimális RGB kódjukkal. #ABCDEF
+
+a html <table><tr><td> tagjaivel hozzunk létre egy olyan sakktáblát, amely az aktuálisabb használ monitor geometria sajátosságait figyelembe véve, 
+aszinkron szinezetű fekete, fehér négyzet alaku cellákból áll.
+

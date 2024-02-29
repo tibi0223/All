@@ -1,0 +1,16 @@
+
+  git init
+  git add .
+
+  git config --global user.name "AttilaJ"
+  git config --global user.email "AttilaJ@gmail.com"
+
+
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/SzoftTeszt/rewrttqerwtrte.git
+  git push -u origin main
+
+
+  
+

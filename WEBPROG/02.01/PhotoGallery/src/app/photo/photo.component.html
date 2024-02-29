@@ -1,0 +1,21 @@
+<!-- {{kepek|json}} -->
+{{keresoSzo}}
+<form class="form-floating">
+    <input name="kereses" [(ngModel)]="keresoSzo" type="text" class="form-control" id="floatingInputValue" placeholder="Search">
+    <label for="floatingInputValue">Search</label>
+  </form>
+<div class="row">
+<div class="col" *ngFor="let kep of kepek|search:keresoSzo">
+
+    <div class="card" style="width: 18rem;">
+        <img [src]="kep.url" class="card-img-top" [alt]="kep.title">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">{{kep.title}}</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+
+</div>
+</div>

@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<link href="styles.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+	<title>Győr-Moson-Sopron megye</title>
+<script>
+function MutatRejt(){
+	if(document.getElementById('kastely').style.visibility=='visible'){ //ha látszik
+		document.getElementById('kastely').style.visibility='hidden';//akkor el kell rejteni
+	}else{
+		document.getElementById('kastely').style.visibility='visible'; //akkor meg kell jeleníteni
+	}
+}
+</script>
+</head>
+
+<body>
+	<!--<a name="eleje"></a>-->
+  <div id="tartalom">
+
+    <h1>Győr-Moson-Sopron megye<a href="https://hu.wikipedia.org/wiki/Győr-Moson-Sopron_megye">*</a></h1>
+	
+	<div class="kepkeret">
+		<img src="cimer.png" alt="Címer" title="Címer" />
+		<p class="kepfelirat">A megye címere</p>
+	</div>	
+	
+    Győr-Moson-Sopron megye az ország északnyugati részében található. Északról a Duna és Szlovákia, keletről Komárom-Esztergom megye, nyugatról Ausztria, délről Veszprém megye, délnyugatról Vas megye határolja. Székhelye: Győr. A nyugati határvonal zegzugosan halad. A Fertő tótól keletre a Hanság egy része Ausztriához tartozik, ugyanakkor Sopron és környéke félszigetszerűen nyúlik be a mai Ausztria területére.
+    
+    Győr-Moson-Sopron megye területe 4208 km2, Magyarország területének 4,5%-a. Fele akkora, mint hazánk legnagyobb megyéje, kétszerese a szomszéd Komárom-Esztergom megyének. A megye területén kb. 450 000 ember él, ennek felét a megye három legnagyobb városa, a 129 ezer lakosú Győr megyei jogú város, a 62 ezer lakosú Sopron megyei jogú város és a kb. 32 ezer lakosú Mosonmagyaróvár adja.
+    
+    A megye területén haladnak keresztül a Közép- és Nyugat-Európával összekötő fontos útvonalak. Itt halad a kettős vágányú Budapest-Bécs-vasútvonal az M1-es autópálya, és nyugat felé létesít kapcsolatokat a Duna mind nagyobb fontosságú vízi útja.
+
+    <h2>A megye szélső települései égtájak szerint:</h2>
+    <ul>
+    <li>a megye legészakibb települése <span class="kiemelt">Rajka</span> (Mosonmagyaróvári járás),</li>
+    <li>a megye legdélibb települése  <span class="kiemelt">Fenyőfő</span> (Pannonhalmi járás),</li>
+    <li>a megye legkeletibb települése  <span class="kiemelt">Rétalap</span> (Győri járás),</li>
+    <li>a megye legnyugatibb települése  <span class="kiemelt">Sopron</span> (Soproni járás).</li>
+    </ul>
+    <h2>Önkormányzat és közigazgatás</h2>
+    
+	<table align="center">
+		<caption>
+    Járások és települések:
+		</caption>
+    		<tr>
+			<th>
+    Járás neve
+			</th>
+			<th>
+    Települések<br />száma
+			</th>
+		</tr>
+		<tr>  
+			<td>  
+    Csornai járás
+			</td> 
+			<td> 
+    33
+			</td>
+		</tr>
+    		<tr>
+			<td> 
+    Győri járás
+			</td>
+			<td> 
+    35
+			</td>
+		</tr>
+		<tr>
+			<td> 
+    Kapuvári járás
+			</td>
+			<td> 
+    19
+			</td>
+		</tr>
+		<tr> 
+			<td>    
+    Mosonmagyaróvári járás
+			</td>
+			<td> 
+    26
+			</td>
+		</tr>
+		<tr>    
+			<td> 
+    Pannonhalmi járás
+			</td>
+			<td> 
+    17
+			</td>
+		</tr>
+		<tr> 
+			<td>    
+    Soproni járás
+			</td>
+			<td> 
+    39
+			</td>
+		</tr>
+		<tr>   
+			<td>  
+    Téti járás
+			</td>
+			<td> 
+    14
+			</td>
+		</tr>
+	</table>    
+    <h2>Turizmus</h2>
+
+    Győr-Moson-Sopron megye a magyarországi turisztikai régiók közül a Nyugat-Dunántúl régióba tartozik, fő turisztikai vonzerejét a számtalan értékes műemlék, Győr és Sopron város történelmi hangulatú belvárosa, a megyei kisvárosok és falvak barokk templomai, kastélyai, valamint a nagy hagyományú borkultúra jelenti. Sokan keresik fel a gyakran csak „Magyar Versailles”-ként becézett fertődi <a href="#kastely" onclick="MutatRejt();">Esterházy-kastélyt</a> és a magyarság egyik nemzeti zarándokhelyének számító nagycenki Széchenyi-kastélyt.
+
+<a name="kastely"></a>
+	<div id="kastely" style="visibility: hidden;">
+		<img src="kastely.jpg" />	
+	</div>
+  </div>
+	<!--<a href="#eleje">Ugrás a lap elejére</a>-->
+
+</body>
+
+</html>

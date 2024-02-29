@@ -1,0 +1,7 @@
+C:\Users\diak\Documents\Kaplonyi Tibor\AutoAnimacio\bin\Debug\AutoAnimacio.exe.config
+C:\Users\diak\Documents\Kaplonyi Tibor\AutoAnimacio\bin\Debug\AutoAnimacio.exe
+C:\Users\diak\Documents\Kaplonyi Tibor\AutoAnimacio\bin\Debug\AutoAnimacio.pdb
+C:\Users\diak\Documents\Kaplonyi Tibor\AutoAnimacio\obj\Debug\AutoAnimacio.csproj.AssemblyReference.cache
+C:\Users\diak\Documents\Kaplonyi Tibor\AutoAnimacio\obj\Debug\AutoAnimacio.csproj.CoreCompileInputs.cache
+C:\Users\diak\Documents\Kaplonyi Tibor\AutoAnimacio\obj\Debug\AutoAnimacio.exe
+C:\Users\diak\Documents\Kaplonyi Tibor\AutoAnimacio\obj\Debug\AutoAnimacio.pdb

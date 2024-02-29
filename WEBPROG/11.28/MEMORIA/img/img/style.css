@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cella{
+    width: 10vh;
+    height: 10vh;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center center;
+    background-image: url();
+}

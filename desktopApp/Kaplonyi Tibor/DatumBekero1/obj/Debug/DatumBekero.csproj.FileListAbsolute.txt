@@ -1,0 +1,7 @@
+C:\Users\diak\Documents\Kaplonyi Tibor\DatumBekero\bin\Debug\DatumBekero.exe.config
+C:\Users\diak\Documents\Kaplonyi Tibor\DatumBekero\bin\Debug\DatumBekero.exe
+C:\Users\diak\Documents\Kaplonyi Tibor\DatumBekero\bin\Debug\DatumBekero.pdb
+C:\Users\diak\Documents\Kaplonyi Tibor\DatumBekero\obj\Debug\DatumBekero.csproj.AssemblyReference.cache
+C:\Users\diak\Documents\Kaplonyi Tibor\DatumBekero\obj\Debug\DatumBekero.csproj.CoreCompileInputs.cache
+C:\Users\diak\Documents\Kaplonyi Tibor\DatumBekero\obj\Debug\DatumBekero.exe
+C:\Users\diak\Documents\Kaplonyi Tibor\DatumBekero\obj\Debug\DatumBekero.pdb

@@ -1,0 +1,56 @@
+<link href="styles.css" rel="stylesheet" />
+Hivatkozás a HTML fájlunk formai kiegészítéseit tartamazó CSS fájlra.
+Csak akkor működik, ha a href és rel pareméter is a láthatóak szerint krül megadásra.
+
+Fontos, hogy a link tag mindig, mivel az anyag egészére irányadó, a head szakaszban kell szerepeljen.
+Amikor az index.html, amibe bekerül a fenti tag ugyan ott van, ahol a a styles.css, 
+akkor elegendő a fájl nevével hivatkozni rá.
+Gyakran szokás komplex webes tartalmak esetén /css, /js, /images könyvtárakat készíteni, 
+hogy az jelentékeny mesnnyiségú anyagok/fájlok legyen áttekinthetőbben tárolhatók.
+
+www
+    |
+    - css
+    |   styles.css
+    |
+    - js
+    |
+    - pics
+
+    index.html 
+
+Az ilyen könyvtári hirearchia esetén a css/styles.ss a helyes Hivatkozás
+/ relatív útvonal hivatkozás, ami az index.html helyétől elindulva mondja meg,
+hogy hol található a styles.css.
+
+<html lang="hu">
+<meta charset="utf-8" />
+A HTML tag lang="hu" paramétellel kiegészítve jelzi a böngésző számára, hogy a webes tartalom 
+magyar nyelvű, míg a head szakaszban szerepeltetett meta taggel lehet megadni az UTF-8 karatker kódolást.
+
+aZ UTF-8 karakterkódolás az, amit a nemzetközi környezetben megjelenítendő webes tartalmainkban mindenképp
+használni szükséges, ahhoz, hogy a világ bármely felén, ha megnyitnak egy magyar ékezetes betűket tartamazó
+oldalt, az ponz úgy legyen látható, mint a készítőnél.
+(önmagában a meta-tag kevés, a szöveg szerkesztő is ilyen kódolást kell használjon)
+
+ASCII 1 byte-os, ezért mindössze 256 szimbolumot kezel
+Unicode 2 byte-os 65536 szimbolumot kezel
+
+Statisztika: 
+1000 leütés
+ASCII 1000byte
+Unicode 2000byte
+
+U=Unicode vagyis 65536 szimbolum; 
+8=amit csak lehet, mert pl benne van az ASCII-ben is, kódoljuk továbbra
+is 1 byte-on
+
+Az UTF-8 tehát 1, 2, 3, vagy 4 byte-os kódokat is tartalmazhat.
+
+1 byte-os kód: 90%
+2: 7%
+3: 2%
+4: 1% alapján 
+
+1*100*90*%+2*100*7%+3*1000*3%+4*1000*1%= 900+140+60+40 = 1140byte
+

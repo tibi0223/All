@@ -1,0 +1,40 @@
+{
+"allatok":[
+    {"id":0, "nev": "Ragyás", "faj": "Nílusi krokodil", "erkezes": "2019-05-16",
+"helye": "Krokodilház", "gondozo": "Ács Miklós"},
+    {"id":1, "nev": "Gizi", "faj": "Gazella", "erkezes": "2022-10-04",
+"helye": "Erdőország", "gondozo": "Ács Miklós"},
+    {"id":2, "nev": "Rugóláb", "faj": "Kenguru", "erkezes": "2020-02-12",
+"helye": "Ausztrál-ösvény", "gondozo": "Kis Katalin"},
+    {"id":3, "nev": "Bálint", "faj": "Indiai elefánt", "erkezes": "1999-02-14",
+"helye": "Elefántház", "gondozo": "Hámori József"},
+    {"id":4, "nev": "Dumber", "faj": "Indiai elefánt", "erkezes": "2020-01-13",
+"helye": "Elefántház", "gondozo": "Hámori József"},
+    {"id":5, "nev": "Rozi", "faj": "Agyaras rozmár", "erkezes": "2019-05-16",
+"helye": "Sarkvilág", "gondozo": "Agyaras rozmár"},
+    {"id":6, "nev": "Bíbor", "faj": "Bata-kutu", "erkezes": "2018-04-09",
+"helye": "Madagaszkár-kaland", "gondozo": "Szalontai Győző"}
+],
+
+"lakhely":[
+    {"id":0,"lakhely":"Kecskesimogató"},
+    {"id":1,"lakhely":"Elefántház"},
+    {"id":2,"lakhely":"Afrika sétány"},
+    {"id":3,"lakhely":"Ausztrál-ösvény"},
+    {"id":4,"lakhely":"Krokodilház"},
+    {"id":5,"lakhely":"Szavannaház"},
+    {"id":6,"lakhely":"Sarkvilág"},
+    {"id":7,"lakhely":"Madagaszkár-kaland"}
+],
+"gondozo":[
+    {"id":0,"nev":"Ács Miklós"},
+    {"id":1,"nev":"Kukorica János"},
+    {"id":2,"nev":"Gáspár Dénes"},
+    {"id":3,"nev":"Hámori József"},
+    {"id":4,"nev":"Kis Katalin"},
+    {"id":5,"nev":"Orsós Gergely"},
+    {"id":6,"nev":"Rácz Éva"},
+    {"id":7,"nev":"Szalontai Győző"}
+]
+
+}

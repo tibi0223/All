@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAnimacio", "AutoAnimacio.csproj", "{E09702F9-4F12-4D7A-922D-54C4F69FC519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E09702F9-4F12-4D7A-922D-54C4F69FC519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09702F9-4F12-4D7A-922D-54C4F69FC519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09702F9-4F12-4D7A-922D-54C4F69FC519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09702F9-4F12-4D7A-922D-54C4F69FC519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {392C70FE-7EF3-40D4-8B6E-98370141438F}
+	EndGlobalSection
+EndGlobal
